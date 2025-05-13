@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Estilizada</title>
+    <style>
+        .tabela-notas {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        .tabela-notas th, .tabela-notas td {
+            border: 1px solid #ddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        .tabela-notas thead {
+            background-color: #f0f0f0;
+        }
+
+        .tabela-notas tr:hover {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <table class="tabela-notas">
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eric</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>Caio</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>7.8</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

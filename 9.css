@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.claro {
+    background-color: white;
+    color: black;
+}
+
+body.escuro {
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#modoClaro {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+#modoEscuro {
+    background-color: #333;
+    color: white;
+}

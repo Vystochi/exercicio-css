@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista com Ícones Personalizados</title>
+    <style>
+        .lista-tarefas {
+            list-style: none;
+            padding: 0;
+        }
+
+        .lista-tarefas li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .lista-tarefas li::before {
+            content: "✓";
+            color: green;
+            position: absolute;
+            left: 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="lista-tarefas">
+        <li>Estudar CSS</li>
+        <li>Praticar exercícios</li>
+        <li>Fazer um projeto</li>
+    </ul>
+</body>
+</html>
